@@ -1,13 +1,106 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+:root {
+    --cor00: #ECE8E1;
+    --cor01: #FF4B4D;
+    --cor02: #0F1923;
+    --cor03: #111111;
+    --cor04: #73060F;
+    --cor05: #400409;
+    
+
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Barlow', 'sans-serif';
+    --fonte-especial: 'Anton', sans-serif;
+}
 
 
 body {
-    width: 800px;
+    background-color: var(--cor02);
+   
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor05));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    font-family: var(--fonte-especial);
+    font-size: 3em;
+    color: var(--cor00);
+    margin-bottom: 20px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
+
+}
+
+header > p {
+    font-family: var(--fonte-destaque);
+    color: var(--cor00);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.774);
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
+}
+
+nav {
+    background-color: var(--cor04);
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor00);
+    padding-right: 10px;
+    font-size: 1.2em;
+
+}
+
+nav a:hover {
+    background-color: var(--cor05);
+    
+}
+
+main {
+    background-color: var(--cor00);
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main h1 {
+    font-family: var(--fonte-destaque);
+
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    text-align: center;
+
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    margin: 3px;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+
+footer {
+    background-color: var(--cor03);
+    color: var(--cor00);
+    text-align: center;
 }
