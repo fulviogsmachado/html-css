@@ -94,9 +94,14 @@ main h2 {
 }
 
 img {
-    width: 250px;
+    width: 200px;
     height: 250px;
-    padding: 5px;
+    padding: 3px;
+    
+}
+
+div.agente {
+    margin-left: 92px;
 }
 
 footer {
