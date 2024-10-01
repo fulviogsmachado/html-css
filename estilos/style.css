@@ -1,5 +1,13 @@
+
+
+body {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
 img {
-    
+    height: 200px;
     width: 200px;
-    height: 250px;
+    margin: 3px;
 }
